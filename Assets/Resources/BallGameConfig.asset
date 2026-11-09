@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc5c4f32343420a8d96d0f4fd92d50e, type: 3}
+  m_Name: BallGameConfig
+  m_EditorClassIdentifier: 
+  _startingPlayerDiameter: 1.2
+  _criticalPlayerDiameter: 0.55
+  _playerSpeed: 3
+  _minimumShotDiameter: 0.35
+  _chargeDiameterPerSecond: 0.8
+  _projectileRadiusMultiplier: 3
+  _projectileSpeed: 4.67
+  _infectionRadiusMultiplier: 3.33
+  _requiredInfectionRadius: 1.75
+  _infectionStepDelay: 0.14
+  _isChainInfectionEnabled: 0
+  _isInfectionRadiusAtLeastPathWidth: 1
+  _startingSizeReserveFraction: 0.2
+  _areaObstacleCount: 120
+  _obstacleGap: 0.08
+  _playerSpawnClearRadius: 3
+  _doorSpawnClearRadius: 3
+  _isProjectileInfectionRadiusVisible: 0
+  _doorOpenDistance: 5
+  _obstacleDiameterRange: {x: 0.65, y: 1.25}
+  _obstacleHeightRange: {x: 1.1, y: 2.2}
